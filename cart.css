@@ -1,0 +1,188 @@
+
+.cart-icon {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'ModernSans', sans-serif;
+    font-size: 18px;
+    width: 50px;
+    height: 50px;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav {  
+    margin-top: 25px;
+    padding: 20px, 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: large;
+    text-decoration: none;
+    justify-content: space-between;
+    float: right;
+}
+
+
+nav a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+.header { 
+    height: 100px;
+    width: 90%;
+    background-color: black;
+    border-radius: 15px;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.logo-image {
+    width: 120px;
+    height: auto; 
+}
+
+.cart {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 7px 10px;
+}
+
+.item{
+    display: inline-block;
+}
+
+#count {
+    position: absolute;
+    top: -15px;
+    right: -10px;
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.your-cart {
+    width: 70%;
+    text-align: left;
+    margin: 20px auto;
+}
+
+.your-cart h1 {
+    font-family: 'ModernSans', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: #444; 
+}
+
+.product {
+    width: 70%;            
+    text-align: left;
+    margin: auto;
+}
+
+.product h3 { 
+    font-family: 'ModernSans', sans-serif;
+    font-weight: 300;
+    color: black;
+}
+
+.cart-item img {
+    border-radius: 15px;
+    width: 80px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.cart-total h3 {
+    font-family: 'ModernSans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.cart-total button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+@font-face {
+    font-family: 'ModernSans';
+    src: url('fonts/ModernSans-Light.otf') format('truetype'); 
+    font-weight: 300; 
+    font-style: normal;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #25d366;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.whatsapp img {
+    width: 70%;
+}
+
+#emailsect{
+    text-align: center;
+    padding: 25px;
+    
+}
+
+#emailsect input{
+    text-align: center;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    border-width: 0.05px;
+}
+
+
+footer{
+    padding: 25px;
+    text-align: center;
+    text-decoration: solid;
+    font-size: larger;
+}

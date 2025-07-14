@@ -1,0 +1,199 @@
+    @font-face {
+        font-family: 'lemon_milk';
+        src: url('lemon_milk/LEMONMILK-Light.otf') format('truetype');
+        font-weight: 300; 
+        font-style: normal;
+    }
+    
+            body {
+        background-color: white;
+        font-family: 'lemon_milk';
+    
+    }
+    @media (max-width: 768px) {
+        header {
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+        }}
+        header {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 50px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+        #logo {
+            font-size: 24px;
+            font-weight: bold;
+    }
+
+        nav {  
+            margin-top: 25px;
+            padding: 20px, 20px;
+            text-decoration: none;
+            font-family: sans-serif;
+            font-size: large;
+            text-decoration: none;
+            justify-content: space-between;
+            float: right;
+    }
+    
+    
+        nav a {
+            margin-left: 20px;
+            color: rgb(51, 51, 51);
+            text-decoration: none;
+            font-weight: 500;
+    }
+
+.banner {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.banner p {
+    margin: 5px 0;
+    margin-bottom: 5px;
+}
+
+.poster-image {
+    margin: 0px;
+    height: 135vh;
+    width: 100%;
+    background-image: url(shopify\ hook.png);
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.products {
+    text-align: center;
+    align-items: center;
+    color: #fff;
+}
+
+.products h2 {
+    font-size: 24px;
+    padding-top: 30%;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.button :hover{
+    translate: (-5px);
+    background-color: #25d366;
+}
+
+.bundles {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.bundles h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.bundle-grid {
+    margin-top: 25px;
+    justify-content: center;
+    gap: 25px;
+}
+
+.bundle-item img {
+    width: 343px;
+    height: 400.39px;
+    border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.bundle-item {
+    display: inline-block;
+    text-align: center;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+
+.bundle-item:hover img {
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.bundle-item a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.product-description {
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.product-price {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}
+
+.bundle-item:hover {
+    transform: translateY(-5px);
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #25d366;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.whatsapp img {
+    width: 70%;
+}
+
+#emailsect{
+    text-align: center;
+    padding: 25px;
+    
+}
+
+#emailsect input{
+    text-align: center;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    border-width: 0.05px;
+}
+
+
+footer{
+    padding: 25px;
+    text-align: center;
+    text-decoration: solid;
+    font-size: larger;
+}
